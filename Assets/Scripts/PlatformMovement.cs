@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlatformMovement : MonoBehaviour
 {
-    public GameObject player;
-
     float dirX, moveSpeed = 3f;
     bool moveRight = true;
 
@@ -22,23 +20,21 @@ public class PlatformMovement : MonoBehaviour
             transform.position = new Vector2(transform.position.x + moveSpeed * Time.deltaTime, transform.position.y);
         else
             transform.position = new Vector2(transform.position.x - moveSpeed * Time.deltaTime, transform.position.y);
-
     }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == player)
+        if(collision.name == "tim_player")
         {
-            player.transform.parent = transform;
-
+            collision.transform.parent = transform;
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject == player)
+        if (collision.name == "tim_player")
         {
-            player.transform.parent = null;
+            collision.transform.parent = null;
         }
     }
 }

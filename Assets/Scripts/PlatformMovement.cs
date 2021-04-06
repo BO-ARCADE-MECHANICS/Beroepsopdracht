@@ -7,6 +7,8 @@ public class PlatformMovement : MonoBehaviour
     float dirX, moveSpeed = 3f;
     bool moveRight = true;
 
+    public GameObject DeathPlane;
+
 
     // Update is called once per frame
     void Update()
@@ -27,6 +29,7 @@ public class PlatformMovement : MonoBehaviour
         if(collision.name == "tim_player")
         {
             collision.transform.parent = transform;
+            DeathPlane.SetActive(false);
         }
     }
 
@@ -35,6 +38,7 @@ public class PlatformMovement : MonoBehaviour
         if (collision.name == "tim_player")
         {
             collision.transform.parent = null;
+            DeathPlane.SetActive(true);
         }
     }
 }

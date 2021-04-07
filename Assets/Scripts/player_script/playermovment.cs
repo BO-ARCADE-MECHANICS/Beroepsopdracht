@@ -7,25 +7,27 @@ public class playermovment : MonoBehaviour
     public float MoveSpeed = 5f;
 
     public Rigidbody2D PlayerBody;
-    public Animator animator;
+    public Animator playerAnimations;
 
     Vector2 movement = Vector2.zero;
 
-    // Update is called once per frame
     void Update()
     {
+        // uses the unity's input manager to read the inputs
+        // convert this inputs into movement over the x and y directions
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        // give the animator the varibles so that it can convert it to animation
+        playerAnimations.SetFloat("Horizontal", movement.x);
+        playerAnimations.SetFloat("Vertical", movement.y);
+        playerAnimations.SetFloat("Speed", movement.sqrMagnitude);
 
     }
 
     void FixedUpdate()
     {
-        //PlayerBody.MovePosition(PlayerBody.position + movement * MoveSpeed * Time.fixedDeltaTime);
+        // Lets the player move plus it lets the player interact correctly with the platform
         this.transform.position += (Vector3)(movement * MoveSpeed * Time.fixedDeltaTime);
     }
 

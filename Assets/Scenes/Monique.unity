@@ -537,12 +537,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!1 &691213688 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3509172713916112695, guid: 45437ce346522f14898b78a861f66788,
-    type: 3}
-  m_PrefabInstance: {fileID: 3509172713258584655}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &742927633
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,12 +676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85262d4f3ceff549a88c87e81e4dacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1243935374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3509172714501929153, guid: 45437ce346522f14898b78a861f66788,
-    type: 3}
-  m_PrefabInstance: {fileID: 3509172713258584655}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1460152093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1538874109446810098, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
@@ -822,12 +810,12 @@ PrefabInstance:
         type: 3}
       propertyPath: gameOverText
       value: 
-      objectReference: {fileID: 691213688}
+      objectReference: {fileID: 3509172713258584657}
     - target: {fileID: 1538874109446810061, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: RestartButton
       value: 
-      objectReference: {fileID: 1243935374}
+      objectReference: {fileID: 3509172713258584656}
     - target: {fileID: 1538874109446810098, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: m_RootOrder
@@ -1310,6 +1298,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45437ce346522f14898b78a861f66788, type: 3}
+--- !u!1 &3509172713258584656 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1385785953434607660, guid: 45437ce346522f14898b78a861f66788,
+    type: 3}
+  m_PrefabInstance: {fileID: 3509172713258584655}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3509172713258584657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 828700174054429463, guid: 45437ce346522f14898b78a861f66788,
+    type: 3}
+  m_PrefabInstance: {fileID: 3509172713258584655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4126412582342101733
 PrefabInstance:
   m_ObjectHideFlags: 0

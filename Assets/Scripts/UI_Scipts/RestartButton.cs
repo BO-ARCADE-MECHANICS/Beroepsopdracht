@@ -15,7 +15,7 @@ public class RestartButton : MonoBehaviour
         
     }
 
-    public void restartScene()
+    public void RestartScene()
     {
         SceneManager.LoadScene("Monique");
     }

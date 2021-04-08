@@ -166,12 +166,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreText: {fileID: 2072213589}
   RubyCount: 0
---- !u!1 &7166127 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3509172714501929153, guid: 45437ce346522f14898b78a861f66788,
-    type: 3}
-  m_PrefabInstance: {fileID: 1715476572}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &145054716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -587,11 +581,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53cc67a21866cbd4699949d613107af5, type: 3}
---- !u!1 &1170353493 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3509172713916112695, guid: 45437ce346522f14898b78a861f66788,
+--- !u!95 &1350588522 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1538874109446810097, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
     type: 3}
-  m_PrefabInstance: {fileID: 1715476572}
+  m_PrefabInstance: {fileID: 1527069267}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1399177515 stripped
 GameObject:
@@ -791,12 +785,17 @@ PrefabInstance:
         type: 3}
       propertyPath: gameOverText
       value: 
-      objectReference: {fileID: 1170353493}
+      objectReference: {fileID: 0}
     - target: {fileID: 1538874109446810061, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: RestartButton
       value: 
-      objectReference: {fileID: 7166127}
+      objectReference: {fileID: 0}
+    - target: {fileID: 1538874109446810063, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
+        type: 3}
+      propertyPath: playerAnimations
+      value: 
+      objectReference: {fileID: 1350588522}
     - target: {fileID: 1538874109446810098, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: m_RootOrder

@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class DoorInteractButton : MonoBehaviour
 {
-    [SerializeField] private GameObject MyDoor;
-    private IDoor door;
+    [SerializeField] private GameObject MyDoorA;
+
+    private IDoor doorA;
 
     private void Awake()
     {
-        door = MyDoor.GetComponent<IDoor>();
+        doorA = MyDoorA.GetComponent<IDoor>();
     }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            door.ToggleDoor();
+            doorA.ToggleDoor();
         }
     }
 }

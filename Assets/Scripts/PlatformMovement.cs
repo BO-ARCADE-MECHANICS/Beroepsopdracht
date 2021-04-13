@@ -8,14 +8,15 @@ public class PlatformMovement : MonoBehaviour
     bool moveRight = true;
 
     public GameObject DeathPlane;
-
+    public float PlatformMax;
+    public float PlatformMin;
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 2f)
+        if (transform.position.x > PlatformMax)
             moveRight = false;
-        if (transform.position.x < -2f)
+        if (transform.position.x < PlatformMin)
             moveRight = true;
 
         if (moveRight)

@@ -12,6 +12,12 @@ public class DoorInteractButton : MonoBehaviour
     {
         doorA = MyDoorA.GetComponent<IDoor>();
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))

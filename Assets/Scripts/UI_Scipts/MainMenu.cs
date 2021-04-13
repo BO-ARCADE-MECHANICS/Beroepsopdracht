@@ -9,7 +9,12 @@ public class MainMenu : MonoBehaviour
    //De lijst kan je vinden bij: File > Built Settings
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); 
+    }
+
+    public void HowTo()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()

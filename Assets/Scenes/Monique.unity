@@ -165,6 +165,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &109504825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 648079585651919088, guid: 45437ce346522f14898b78a861f66788,
+    type: 3}
+  m_PrefabInstance: {fileID: 3509172713258584655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &129176535
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,6 +292,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &355890097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 648079587481569443, guid: 45437ce346522f14898b78a861f66788,
+    type: 3}
+  m_PrefabInstance: {fileID: 3509172713258584655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &365829461
 GameObject:
   m_ObjectHideFlags: 0
@@ -668,12 +680,12 @@ PrefabInstance:
         type: 3}
       propertyPath: gameOverText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 109504825}
     - target: {fileID: 1538874109446810061, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: RestartButton
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 355890097}
     - target: {fileID: 1538874109446810063, guid: 0cce29b3a4cf8bf43b0d03c3c13f5988,
         type: 3}
       propertyPath: playerAnimations

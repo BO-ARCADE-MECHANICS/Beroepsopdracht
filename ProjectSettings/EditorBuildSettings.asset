@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/How_To_Play.unity
     guid: 9a4caa4ba149e1f42b45342d5a4be9e6
   - enabled: 1
-    path: Assets/Scenes/Monique.unity
-    guid: f7e2bf816dce05f468549c82beabbd7c
+    path: Assets/Scenes/Game_Demo.unity
+    guid: 41b2904e1df5dc14b8f9f651fac07bf2
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: c11245814440bd547bd39fafb13eaca9

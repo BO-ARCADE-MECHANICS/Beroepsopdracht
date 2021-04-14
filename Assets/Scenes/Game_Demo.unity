@@ -2627,8 +2627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DialogBox: {fileID: 1373746596}
   DialogText: {fileID: 1561416500}
-  Dialog: Welkom Tim. Je doel is om ruby's te verzamelen en obstakels te ontwijken.
-    Om deze deur te openen gooi box op de knop.
+  Dialog: Welcome Tim. Your goal is to collect ruby's and to avoid the obstacle's.
+    To open the first door bring the box to the button.
   PlayerInRange: 0
 --- !u!212 &1365123586
 SpriteRenderer:

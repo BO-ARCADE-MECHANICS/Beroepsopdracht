@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/How_To_Play.unity
     guid: 9a4caa4ba149e1f42b45342d5a4be9e6
   - enabled: 1
-    path: Assets/Scenes/Game_Demo.unity
-    guid: 41b2904e1df5dc14b8f9f651fac07bf2
+    path: Assets/Scenes/Michelle test.unity
+    guid: 85d536601e690fd4cbde267e2b107323
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: c11245814440bd547bd39fafb13eaca9
